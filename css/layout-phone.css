@@ -1,0 +1,143 @@
+nav{
+    flex-direction: column;
+}
+
+nav a{
+    padding:5%;
+    font-size: 150%;
+}
+
+
+
+
+
+
+.Photos{
+    flex-direction: column;
+    animation: fadein 0s ease-in-out forwards;
+    height: 100%;
+    width: 100%;
+}
+
+
+.IndexTwo{
+    flex-direction: column;
+    animation: fadein 0s ease-in-out forwards;
+}
+
+.IndexTwoText{
+    flex: 0 1 auto;
+}
+
+.IndexThree{
+    flex-direction: column;
+    animation: fadein 0s ease-in-out forwards;
+}
+
+.IndexThreeText{
+    flex: 0 1 auto;
+}
+
+
+.AcadiaText{
+    flex-direction: column;
+}
+
+.AcadiaOne{
+    height: 100%;
+    width: 100%;
+}
+
+.AcadiaTwo{
+    height: 100%;
+    width: 100%;
+}
+
+.AcadiaThree{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.SmokyPhotos{
+    flex-direction: column;
+}
+
+.SmokyOne{
+    height: 100%;
+    width: 100%;
+}
+
+.SmokyTwo{
+    height: 100%;
+    width: 100%;
+}
+
+.SmokyThree{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+
+.ShenPhotos{
+    flex-direction: column;
+}
+
+.ShenOne{
+    height: 100%;
+    width: 100%;
+}
+
+.ShenTwo{
+    height: 100%;
+    width: 100%;
+}
+
+.ShenThree{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.start{
+    flex-direction: column;
+}
+
+.startphotos{
+    height: 100%;
+    width: 100%;
+}
+
+
+
+.howmany{
+    flex-direction: column;
+}
+
+
+.howmanyphoto{
+    height: 100%;
+    width: 100%;
+}
+
+.table{
+    animation: fadein 0s ease-in-out forwards;
+    flex: 0 1 auto;
+}
+
+.table {
+    overflow-x: auto; 
+    width: 68%; 
+}
+
+
+.table .actualTable {
+    width: max-content; 
+    max-width: 100%; 
+    font-size: 12px; 
+}
+

@@ -1,0 +1,533 @@
+:root{
+    --main-color: black;
+    --main-bg-color: rgba(255, 255, 255, 0.5);
+    --nav-hover-color: brown;
+    --hover-color: red;
+
+}
+
+header{
+    color: white;
+}
+body{
+    margin: auto;
+}
+
+figure {
+    text-align: center;
+    border: 2em;
+    border-radius: 10%;
+    height: 20%;
+}
+
+img {
+    max-width: 100%;
+    border-radius: 2em;
+}
+
+html {
+    background-color: black;
+}
+
+
+p {
+    font-family: "Papyrus";
+}
+
+footer a:visited{
+    color: white;
+}
+
+a:hover{
+    color:var(--hover-color);
+}
+
+h1 {
+    text-transform: uppercase;
+    padding: 2em;
+    margin: 2em;
+}
+
+section{
+    padding: 2em;
+    margin: 2em;
+    background-color: var(--main-bg-color);
+}
+
+
+
+pre{
+    color: white;
+}
+
+cite{
+    font-size: small;
+}
+
+figcaption a{
+    color:var(--main-color);
+}
+
+
+figure img, figure figcaption{
+    margin: auto;
+}
+
+nav a:link{
+    color: #333;
+    text-decoration: none;
+}
+
+nav a:hover{
+    text-decoration: underline;
+    color:var(--nav-hover-color);
+}
+
+nav a{
+    display: inline-block;
+}
+
+nav{
+    border: solid darkgray ;
+    background-color: #fff;
+    text-align: center;
+    display: block;
+}
+
+
+
+table{
+    border: 2em solid var(--main-color);
+    border-collapse: collapse;
+    width: 100%;
+}
+
+td{
+    border: 2em solid rgb(102, 51, 0);;
+    margin: 1em;
+}
+
+th{
+    border: 2em solid rgb(102, 51, 0);;
+    margin: 1em;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+
+.form{
+    margin: auto;
+}
+
+form p{
+    text-indent: 0em;
+}
+
+tr{
+    background-color: lightgreen;
+}
+
+section table{
+    margin: auto;
+}
+
+.PostArray{
+    text-indent:0em;
+}
+
+.activePage{
+    color:darkgreen;
+}
+
+tr:hover{
+    background-color: white;
+}
+
+@keyframes fadein{
+    0%{
+        opacity: 0;
+    }
+
+    100%{
+        opacity: 1;
+    }
+}
+
+@keyframes fadeout{
+    0%{
+        opacity: 1;
+    }
+    100%{
+        opacity: 0;
+    }
+}
+
+nav{
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+    gap:10%;
+}
+
+nav a{
+    flex: 0 1 auto;
+    text-align: center;
+}
+
+figure img{
+    max-width: 100%;
+}
+
+form{
+    background-color: black;
+}
+
+.form-picture{
+    display:flex;
+    flex-direction:row-reverse;
+    align-items: center;
+    justify-content: center;
+}
+
+.form-picture figure{
+    flex: 0 1 33%;
+}
+
+section.form{
+    display:flex;
+    flex-direction: row;
+    justify-content:center;
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+}
+
+legend{
+    background-color: white;
+}
+label[for ^= "txt"]{
+    background-color: white; 
+}
+
+input[type="text"]{
+    width:15em;
+    padding:1em;
+}
+
+input[type="submit"]{
+    background-color:white;
+    padding:1em;
+    color: black;
+}
+
+label[for^="txt"]{
+    display:block;
+}
+
+
+label[for^="chk"]{
+    background-color:white;
+    display:block;
+}
+
+label[for ^= "rad"]{
+    display:block;
+    background-color:white;
+}
+
+.button{
+    text-align:center;
+}
+
+header{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    font-family: "Papyrus";
+}
+
+header h1{
+    padding: 0.5em 0;
+}
+
+.Index-One{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+
+.Photos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    animation: fadein 4s ease-in-out forwards;
+}
+
+.POne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.PTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.PThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.IndexTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    animation: fadein 4s ease-in-out forwards;
+    scroll-margin-top: 5vh;
+}
+
+.IndexTwoText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.IndexThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse;
+    animation: fadein 4s ease-in-out forwards;
+    scroll-margin-top: 2vh;
+}
+
+.IndexThreeText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.Acadia{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.AcadiaOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 50%;
+}
+
+.AcadiaTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 50%;
+}
+
+.AcadiaThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 50%;
+}
+
+.AcadiaText{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.AcadiaOne:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+}
+
+.AcadiaTwo:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+}
+
+.AcadiaThree:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+}
+
+.SmokyMountains{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.SmokyOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 50%;
+}
+
+.SmokyTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 50%;
+}
+
+.SmokyThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 50%;
+}
+
+.SmokyPhotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.SmokyOne:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+}
+
+.SmokyTwo:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+}
+
+.SmokyThree:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+}
+
+.Shenandoah{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.ShenPhotos{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+}
+
+.ShenOne{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 50%;
+}
+
+.ShenTwo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 50%;
+}
+
+.ShenThree{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 50%;
+}
+
+.ShenOne:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+}
+
+.ShenTwo:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+}
+
+.ShenThree:hover{
+    opacity: 100%;
+    transform: scale(1.2);
+}
+
+.start{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.startphotos{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.StartText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.nattyparksintro{
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.howmany{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+
+.howmanyText{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.howmanyphoto{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.table{
+    animation: fadein 4s ease-in-out forwards;
+}

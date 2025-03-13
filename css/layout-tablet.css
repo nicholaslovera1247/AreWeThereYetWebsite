@@ -1,0 +1,22 @@
+nav{
+    gap:5%;
+}
+
+nav a{
+    font-size: large;
+    padding: 3%;
+}
+
+.form-picture{
+    flex-direction:column;
+    flex-wrap: wrap;
+}
+
+.form{
+    flex-direction: column;
+    flex-wrap: wrap;
+}
+
+figure img{
+    flex:0 1 33%;
+}
